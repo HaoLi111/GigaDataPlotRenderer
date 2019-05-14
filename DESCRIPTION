@@ -1,0 +1,15 @@
+Package: GigaDataPlotRenderer
+Type: Package
+Title: Visualize Big Data in 2D
+Version: 0.1.0
+Author: Hao Li
+Maintainer: Hao Li <lhrcplanes@qq.com>
+Description: An engine to render plots for datasets in gigabite-scale,
+   based on pixel-wise rendering on large matrices. It is designed to
+   overcome the shortages of existing R plotting packages (speed and 
+   memory usage). It is most suitable for big data representation, 
+   image accentuation, and fractal(chaotic system) visualization.
+License: GPL-2 | file LICENSE
+Encoding: UTF-8
+Depends: tiff
+LazyData: true
